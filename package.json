@@ -1,0 +1,29 @@
+{
+  "name": "ort-diffusion",
+  "version": "0.0.1",
+  "description": "stablediffusion with ort-web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4a1carbin4/ort-diffusion.git"
+  },
+  "keywords": [
+    "onnxruntime",
+    "stablediffusion",
+    "diffusers"
+  ],
+  "author": "WaGaNaWa_MG <m4a1carbin4@gmail.com> (https://www.wgnw.kr)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/m4a1carbin4/ort-diffusion/issues"
+  },
+  "homepage": "https://github.com/m4a1carbin4/ort-diffusion#readme",
+  "dependencies": {
+    "@huggingface/hub": "^0.14.2",
+    "onnxruntime-common": "^1.17.1",
+    "onnxruntime-web": "^1.17.1"
+  }
+}
